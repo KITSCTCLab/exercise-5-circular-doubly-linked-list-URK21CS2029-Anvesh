@@ -46,7 +46,8 @@ for item in input_data.split(', '):
         for letter in item.split(','):
             if letter.isnumeric():
                 inner_list.append(int(letter))
-        data.append(inner_list)
+        data.append(inner_list)    
+        
 
 obj = DoublyCircularLinkedList()
 result = []
